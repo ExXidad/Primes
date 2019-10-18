@@ -35,7 +35,7 @@ module binsearch
 
             end if
         end do
-
+!
         divider = array(divider_position)
         if (elem == divider) then
             elem_is_there = .true.
