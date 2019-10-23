@@ -15,8 +15,8 @@ OBJS_DIR = obj/Debug/
 EXE_DIR = bin/Debug/
 
 EXE = Prime.exe
-FC = mingw32-gfortran.exe
-LD = mingw32-gfortran.exe
+FC = gfortran
+LD = gfortran
 IDIR = 
 CFLAGS = -Wall -g -fdefault-integer-8 -fdefault-double-8 -fdefault-real-8 -fdefault-integer-8  -J$(OBJS_DIR) $(IDIR)
 LFLAGS = 
