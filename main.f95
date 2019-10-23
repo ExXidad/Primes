@@ -22,7 +22,6 @@ end module
 program main
   use reading_file
   use binsearch
-  use bubblesort
   implicit none
   integer :: un = 1
   integer :: input, max_value, amount_of_elems = 1
